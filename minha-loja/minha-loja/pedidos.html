@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PODDY - PEDIDOS</title>
+
+</head>
+
+<body>
+
+    <h1>PEDIDOS</h1>
+
+    <h2>ESCOLHA SEUS PRODUTOS</h2>
+
+    <p>
+        FAÇA SEU PEDIDO DE FORMA SIMPLES E RÁPIDA.
+    </p>
+
+    <table border="1">
+
+        <caption>
+            PRODUTOS PODDY
+        </caption>
+
+        <thead>
+
+            <tr>
+
+                <th>PRODUTO</th>
+
+                <th>DESCRIÇÃO</th>
+
+                <th>QUANTIDADE</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>PUDIM</td>
+
+                <td>MINI PUDIM</td>
+
+                <td>
+
+                    <button type="button" onclick="diminuirPudim()">
+                        -
+                    </button>
+
+                    <span id="quantidadePudim">0</span>
+
+                    <button type="button" onclick="aumentarPudim()">
+                        +
+                    </button>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>GELADINHO DE PUDIM</td>
+
+                <td>GELADINHO CREMOSO DE PUDIM</td>
+
+                <td>
+
+                    <button type="button" onclick="diminuirGeladinho()">
+                        -
+                    </button>
+
+                    <span id="quantidadeGeladinho">0</span>
+
+                    <button type="button" onclick="aumentarGeladinho()">
+                        +
+                    </button>
+
+                </td>
+
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+            <tr>
+
+                <th colspan="2">
+                    TOTAL DE PRODUTOS
+                </th>
+
+                <th id="total">
+                    0
+                </th>
+
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+    <br>
+
+    <button type="button">
+        PEDIR
+    </button>
+
+    <br><br>
+
+    <a href="index.html">INÍCIO</a>
+
+
+    <script>
+
+        let quantidadePudim = 0;
+
+        let quantidadeGeladinho = 0;
+
+
+        function aumentarPudim() {
+
+            quantidadePudim++;
+
+            document.getElementById("quantidadePudim").textContent = quantidadePudim;
+
+            atualizarTotal();
+
+        }
+
+
+        function diminuirPudim() {
+
+            if (quantidadePudim > 0) {
+
+                quantidadePudim--;
+
+                document.getElementById("quantidadePudim").textContent = quantidadePudim;
+
+                atualizarTotal();
+
+            }
+
+        }
+
+
+        function aumentarGeladinho() {
+
+            quantidadeGeladinho++;
+
+            document.getElementById("quantidadeGeladinho").textContent = quantidadeGeladinho;
+
+            atualizarTotal();
+
+        }
+
+
+        function diminuirGeladinho() {
+
+            if (quantidadeGeladinho > 0) {
+
+                quantidadeGeladinho--;
+
+                document.getElementById("quantidadeGeladinho").textContent = quantidadeGeladinho;
+
+                atualizarTotal();
+
+            }
+
+        }
+
+
+        function atualizarTotal() {
+
+            let total = quantidadePudim + quantidadeGeladinho;
+
+            document.getElementById("total").textContent = total;
+
+        }
+
+    </script>
+
+</body>
+
+</html>
