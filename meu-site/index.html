@@ -1,1316 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Igor | Criação Digital, Design e Sites</title>
-
-    <meta
-        name="description"
-        content="Criação de artes, logos, identidade visual, convites, sites, edição de vídeos, conteúdo com IA e soluções digitais."
-    >
-
-    <meta name="theme-color" content="#080808">
-
-    <!-- FONTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap"
-        rel="stylesheet"
-    >
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Igor Vision | Criação Digital</title>
+  <meta name="description" content="Logos, identidade visual, sites, landing pages, edição de vídeo e conteúdo com IA.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- =====================================================
-         MENU
-    ====================================================== -->
-
-    <header class="nav" id="nav">
-
-        <div class="container nav__in">
-
-            <a href="#inicio" class="logo">
-                Igor<span>.</span>
-            </a>
-
-            <button
-                class="nav__toggle"
-                id="navToggle"
-                aria-label="Abrir menu"
-                aria-expanded="false"
-            >
-                <i></i>
-                <i></i>
-            </button>
-
-            <nav class="nav__links" id="navLinks">
-
-                <a href="#servicos">Serviços</a>
-
-                <a href="#processo">Como funciona</a>
-
-                <a href="#sobre">Sobre</a>
-
-                <a href="#contato">Contato</a>
-
-                <a
-                    href="#contato"
-                    class="btn btn--sm"
-                >
-                    Orçamento
-                </a>
-
-            </nav>
-
-        </div>
-
-    </header>
-
-
-    <main>
-
-        <!-- =====================================================
-             HERO
-        ====================================================== -->
-
-        <section class="hero" id="inicio">
-
-            <div class="container hero__in">
-
-                <div class="hero__content">
-
-                    <p class="hero__name">
-                        IGOR · CRIAÇÃO DIGITAL
-                    </p>
-
-                    <h1>
-                        Criatividade que transforma
-                        <span class="gold">ideias</span>
-                        em projetos digitais.
-                    </h1>
-
-                    <p class="hero__sub">
-                        Criação de artes, marcas, sites, vídeos e soluções
-                        digitais para pessoas, eventos e negócios.
-                    </p>
-
-                    <div class="hero__cta">
-
-                        <a
-                            href="#servicos"
-                            class="btn"
-                        >
-                            VER SERVIÇOS
-                        </a>
-
-                        <a
-                            href="#contato"
-                            class="btn btn--ghost"
-                            data-wa="Olá, Igor! Vim pelo seu site e gostaria de solicitar um orçamento."
-                        >
-                            SOLICITAR ORÇAMENTO
-                        </a>
-
-                    </div>
-
-                    <div class="hero__tags">
-
-                        <span>ARTES</span>
-                        <span>LOGOS</span>
-                        <span>SITES</span>
-                        <span>VÍDEOS</span>
-                        <span>IA</span>
-
-                    </div>
-
-                </div>
-
-
-                <!-- VISUAL -->
-
-                <div class="hero__visual">
-
-                    <svg
-                        class="hero__rings"
-                        viewBox="0 0 600 600"
-                        aria-hidden="true"
-                        fill="none"
-                    >
-
-                        <g class="spin">
-
-                            <circle
-                                cx="300"
-                                cy="300"
-                                r="285"
-                                stroke="#D4AF37"
-                                stroke-opacity=".28"
-                                stroke-dasharray="3 14"
-                            />
-
-                            <circle
-                                cx="560"
-                                cy="170"
-                                r="5"
-                                fill="#FFFFFF"
-                                fill-opacity=".8"
-                            />
-
-                        </g>
-
-                        <circle
-                            cx="300"
-                            cy="300"
-                            r="238"
-                            stroke="#FFFFFF"
-                            stroke-opacity=".08"
-                        />
-
-                        <path
-                            d="M40 520h80M520 70v80"
-                            stroke="#D4AF37"
-                            stroke-opacity=".5"
-                        />
-
-                        <path
-                            d="M60 100h18M69 91v18"
-                            stroke="#FFFFFF"
-                            stroke-opacity=".6"
-                        />
-
-                    </svg>
-
-
-                    <div class="hero__arch"></div>
-
-
-                    <img
-                        class="hero__avatar"
-                        src="assets/avatar.png"
-                        alt="Igor, criador digital"
-                    >
-
-
-                    <div class="hero__chip">
-
-                        <i></i>
-
-                        DESIGN · WEB · VÍDEO · IA
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =====================================================
-             SERVIÇOS
-        ====================================================== -->
-
-        <section
-            class="section section--alt"
-            id="servicos"
-        >
-
-            <div class="container">
-
-                <div class="section__header reveal">
-
-                    <p class="section__eyebrow">
-                        SERVIÇOS
-                    </p>
-
-                    <h2>
-                        O que
-                        <span class="gold">eu faço</span>
-                    </h2>
-
-                    <p class="section__lead">
-                        Soluções digitais para transformar ideias em
-                        materiais profissionais, criativos e funcionais.
-                    </p>
-
-                </div>
-
-
-                <div class="grid grid--4">
-
-
-                    <!-- SERVIÇO 1 -->
-
-                    <article class="card service-card reveal">
-
-                        <div class="service-card__number">
-                            01
-                        </div>
-
-                        <svg
-                            class="icon"
-                            viewBox="0 0 24 24"
-                            aria-hidden="true"
-                        >
-
-                            <path
-                                d="M12 20l7-7-4-4-7 7v4h4z"
-                            />
-
-                            <path
-                                d="M14 6l4 4"
-                            />
-
-                        </svg>
-
-                        <h3>
-                            Artes & Design
-                        </h3>
-
-                        <p>
-                            Criação de materiais visuais para divulgar
-                            produtos, serviços, marcas e eventos.
-                        </p>
-
-                        <ul>
-
-                            <li>
-                                Artes para redes sociais
-                            </li>
-
-                            <li>
-                                Stories e carrosséis
-                            </li>
-
-                            <li>
-                                Banners e flyers
-                            </li>
-
-                            <li>
-                                Materiais promocionais
-                            </li>
-
-                        </ul>
-
-                    </article>
-
-
-                    <!-- SERVIÇO 2 -->
-
-                    <article class="card service-card reveal">
-
-                        <div class="service-card__number">
-                            02
-                        </div>
-
-                        <svg
-                            class="icon"
-                            viewBox="0 0 24 24"
-                            aria-hidden="true"
-                        >
-
-                            <circle
-                                cx="12"
-                                cy="12"
-                                r="8"
-                            />
-
-                            <path
-                                d="M8 12h8"
-                            />
-
-                            <path
-                                d="M12 8v8"
-                            />
-
-                        </svg>
-
-                        <h3>
-                            Logos & Identidade
-                        </h3>
-
-                        <p>
-                            Desenvolvimento de marcas com uma identidade
-                            visual pensada para transmitir profissionalismo.
-                        </p>
-
-                        <ul>
-
-                            <li>
-                                Criação de logotipos
-                            </li>
-
-                            <li>
-                                Identidade visual
-                            </li>
-
-                            <li>
-                                Paleta de cores
-                            </li>
-
-                            <li>
-                                Elementos visuais
-                            </li>
-
-                        </ul>
-
-                    </article>
-
-
-                    <!-- SERVIÇO 3 -->
-
-                    <article class="card service-card reveal">
-
-                        <div class="service-card__number">
-                            03
-                        </div>
-
-                        <svg
-                            class="icon"
-                            viewBox="0 0 24 24"
-                            aria-hidden="true"
-                        >
-
-                            <rect
-                                x="3"
-                                y="4"
-                                width="18"
-                                height="16"
-                                rx="2"
-                            />
-
-                            <path
-                                d="M3 9h18"
-                            />
-
-                            <path
-                                d="M8 14h8"
-                            />
-
-                        </svg>
-
-                        <h3>
-                            Convites & Eventos
-                        </h3>
-
-                        <p>
-                            Convites e materiais personalizados para momentos
-                            especiais e eventos.
-                        </p>
-
-                        <ul>
-
-                            <li>
-                                Convites digitais
-                            </li>
-
-                            <li>
-                                Convites em PDF
-                            </li>
-
-                            <li>
-                                Aniversários
-                            </li>
-
-                            <li>
-                                Eventos e comemorações
-                            </li>
-
-                        </ul>
-
-                    </article>
-
-
-                    <!-- SERVIÇO 4 -->
-
-                    <article class="card service-card reveal">
-
-                        <div class="service-card__number">
-                            04
-                        </div>
-
-                        <svg
-                            class="icon"
-                            viewBox="0 0 24 24"
-                            aria-hidden="true"
-                        >
-
-                            <rect
-                                x="3"
-                                y="4"
-                                width="18"
-                                height="16"
-                                rx="2"
-                            />
-
-                            <path
-                                d="M3 9h18"
-                            />
-
-                            <path
-                                d="M8 14h8"
-                            />
-
-                        </svg>
-
-                        <h3>
-                            Sites
-                        </h3>
-
-                        <p>
-                            Desenvolvimento de páginas modernas para empresas,
-                            profissionais, eventos e projetos.
-                        </p>
-
-                        <ul>
-
-                            <li>
-                                Sites institucionais
-                            </li>
-
-                            <li>
-                                Landing pages
-                            </li>
-
-                            <li>
-                                Sites para eventos
-                            </li>
-
-                            <li>
-                                Sites personalizados
-                            </li>
-
-                        </ul>
-
-                    </article>
-
-
-                    <!-- SERVIÇO 5 -->
-
-                    <article class="card service-card reveal">
-
-                        <div class="service-card__number">
-                            05
-                        </div>
-
-                        <svg
-                            class="icon"
-                            viewBox="0 0 24 24"
-                            aria-hidden="true"
-                        >
-
-                            <rect
-                                x="3"
-                                y="5"
-                                width="18"
-                                height="14"
-                                rx="2"
-                            />
-
-                            <path
-                                d="M10 9.5v5l4.5-2.5z"
-                            />
-
-                        </svg>
-
-                        <h3>
-                            Edição de Vídeos
-                        </h3>
-
-                        <p>
-                            Edição de vídeos para redes sociais, divulgação
-                            e conteúdo digital.
-                        </p>
-
-                        <ul>
-
-                            <li>
-                                Reels e Shorts
-                            </li>
-
-                            <li>
-                                Cortes de vídeos
-                            </li>
-
-                            <li>
-                                Legendas e efeitos
-                            </li>
-
-                            <li>
-                                Vídeos promocionais
-                            </li>
-
-                        </ul>
-
-                    </article>
-
-
-                    <!-- SERVIÇO 6 -->
-
-                    <article class="card service-card reveal">
-
-                        <div class="service-card__number">
-                            06
-                        </div>
-
-                        <svg
-                            class="icon"
-                            viewBox="0 0 24 24"
-                            aria-hidden="true"
-                        >
-
-                            <path
-                                d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"
-                            />
-
-                            <path
-                                d="M19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"
-                            />
-
-                        </svg>
-
-                        <h3>
-                            IA & Criação Digital
-                        </h3>
-
-                        <p>
-                            Uso de inteligência artificial para ampliar
-                            possibilidades criativas e visuais.
-                        </p>
-
-                        <ul>
-
-                            <li>
-                                Imagens com IA
-                            </li>
-
-                            <li>
-                                Conteúdo visual
-                            </li>
-
-                            <li>
-                                Conceitos criativos
-                            </li>
-
-                            <li>
-                                Elementos personalizados
-                            </li>
-
-                        </ul>
-
-                    </article>
-
-
-                    <!-- SERVIÇO 7 -->
-
-                    <article class="card service-card reveal">
-
-                        <div class="service-card__number">
-                            07
-                        </div>
-
-                        <svg
-                            class="icon"
-                            viewBox="0 0 24 24"
-                            aria-hidden="true"
-                        >
-
-                            <path
-                                d="M4 6h16"
-                            />
-
-                            <path
-                                d="M4 12h16"
-                            />
-
-                            <path
-                                d="M4 18h16"
-                            />
-
-                            <circle
-                                cx="8"
-                                cy="6"
-                                r="1"
-                            />
-
-                            <circle
-                                cx="15"
-                                cy="12"
-                                r="1"
-                            />
-
-                            <circle
-                                cx="11"
-                                cy="18"
-                                r="1"
-                            />
-
-                        </svg>
-
-                        <h3>
-                            Conteúdo Digital
-                        </h3>
-
-                        <p>
-                            Organização e criação de conteúdos para fortalecer
-                            a presença digital.
-                        </p>
-
-                        <ul>
-
-                            <li>
-                                Conteúdo para redes
-                            </li>
-
-                            <li>
-                                Planejamento visual
-                            </li>
-
-                            <li>
-                                Adaptação de materiais
-                            </li>
-
-                            <li>
-                                Soluções digitais
-                            </li>
-
-                        </ul>
-
-                    </article>
-
-
-                    <!-- SERVIÇO 8 -->
-
-                    <article class="card service-card reveal">
-
-                        <div class="service-card__number">
-                            08
-                        </div>
-
-                        <svg
-                            class="icon"
-                            viewBox="0 0 24 24"
-                            aria-hidden="true"
-                        >
-
-                            <path
-                                d="M4 4h6v6H4z"
-                            />
-
-                            <path
-                                d="M14 4h6v6h-6z"
-                            />
-
-                            <path
-                                d="M4 14h6v6H4z"
-                            />
-
-                            <path
-                                d="M14 14h6v6h-6z"
-                            />
-
-                        </svg>
-
-                        <h3>
-                            Automação & Soluções
-                        </h3>
-
-                        <p>
-                            Organização de processos e criação de soluções
-                            digitais para facilitar tarefas.
-                        </p>
-
-                        <ul>
-
-                            <li>
-                                Organização digital
-                            </li>
-
-                            <li>
-                                Automação de tarefas
-                            </li>
-
-                            <li>
-                                Fluxos digitais
-                            </li>
-
-                            <li>
-                                Soluções personalizadas
-                            </li>
-
-                        </ul>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =====================================================
-             CTA
-        ====================================================== -->
-
-        <section class="section cta">
-
-            <div class="container cta__in reveal">
-
-                <div>
-
-                    <p class="section__eyebrow">
-                        SEU PROJETO COMEÇA AQUI
-                    </p>
-
-                    <h2>
-                        Pronto para tirar sua
-                        <span class="gold">ideia</span>
-                        do papel?
-                    </h2>
-
-                    <p>
-                        Vamos conversar sobre o que você precisa
-                        e encontrar a melhor solução.
-                    </p>
-
-                </div>
-
-                <a
-                    href="#contato"
-                    class="btn"
-                    data-wa="Olá, Igor! Quero tirar uma ideia do papel."
-                >
-                    SOLICITAR ORÇAMENTO
-                </a>
-
-            </div>
-
-        </section>
-
-
-        <!-- =====================================================
-             REFERÊNCIAS
-        ====================================================== -->
-
-        <section class="section" id="referencias">
-
-            <div class="container">
-
-                <div class="panel reveal">
-
-                    <p class="section__eyebrow">
-                        REFERÊNCIAS
-                    </p>
-
-                    <h2>
-                        Exemplos de
-                        <span class="gold">criação</span>
-                    </h2>
-
-                    <p>
-                        Alguns projetos podem ser apresentados como referência
-                        conforme o tipo de serviço. Também posso desenvolver
-                        uma proposta visual demonstrativa para o seu projeto.
-                    </p>
-
-                    <a
-                        href="#contato"
-                        class="btn btn--ghost"
-                        data-wa="Olá, Igor! Gostaria de conhecer exemplos do seu trabalho."
-                    >
-                        CONHECER REFERÊNCIAS
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =====================================================
-             PROCESSO
-        ====================================================== -->
-
-        <section
-            class="section section--alt"
-            id="processo"
-        >
-
-            <div class="container">
-
-                <div class="section__header reveal">
-
-                    <p class="section__eyebrow">
-                        PROCESSO
-                    </p>
-
-                    <h2>
-                        Como
-                        <span class="gold">funciona</span>
-                    </h2>
-
-                    <p class="section__lead">
-                        Um processo simples para transformar sua ideia
-                        em um projeto pronto para usar.
-                    </p>
-
-                </div>
-
-
-                <ol class="steps">
-
-                    <li class="card reveal">
-
-                        <b>01</b>
-
-                        <h3>
-                            Conversa
-                        </h3>
-
-                        <p>
-                            Você conta sua ideia e o que precisa.
-                        </p>
-
-                    </li>
-
-
-                    <li class="card reveal">
-
-                        <b>02</b>
-
-                        <h3>
-                            Planejamento
-                        </h3>
-
-                        <p>
-                            Definimos escopo, prazo e direção do projeto.
-                        </p>
-
-                    </li>
-
-
-                    <li class="card reveal">
-
-                        <b>03</b>
-
-                        <h3>
-                            Criação
-                        </h3>
-
-                        <p>
-                            Desenvolvo o material de acordo com o projeto.
-                        </p>
-
-                    </li>
-
-
-                    <li class="card reveal">
-
-                        <b>04</b>
-
-                        <h3>
-                            Ajustes
-                        </h3>
-
-                        <p>
-                            Refinamos os detalhes necessários.
-                        </p>
-
-                    </li>
-
-
-                    <li class="card reveal">
-
-                        <b>05</b>
-
-                        <h3>
-                            Entrega
-                        </h3>
-
-                        <p>
-                            Você recebe os arquivos finais prontos para usar.
-                        </p>
-
-                    </li>
-
-                </ol>
-
-            </div>
-
-        </section>
-
-
-        <!-- =====================================================
-             SOBRE
-        ====================================================== -->
-
-        <section
-            class="section"
-            id="sobre"
-        >
-
-            <div class="container about reveal">
-
-                <div class="about__visual">
-
-                    <img
-                        class="about__photo"
-                        src="assets/avatar.png"
-                        alt="Igor, criador digital"
-                        loading="lazy"
-                    >
-
-                </div>
-
-
-                <div class="about__content">
-
-                    <p class="section__eyebrow">
-                        SOBRE
-                    </p>
-
-                    <h2>
-                        Criatividade,
-                        <span class="gold">comunicação</span>
-                        e tecnologia.
-                    </h2>
-
-                    <p class="about__text">
-                        Olá, eu sou Igor. Trabalho com criação digital,
-                        unindo criatividade, comunicação e tecnologia para
-                        desenvolver materiais visuais, conteúdos, sites
-                        e soluções para pessoas, marcas e negócios.
-                    </p>
-
-                    <p class="about__text">
-                        A ideia é transformar aquilo que você imagina em
-                        algo visual, profissional e pronto para ser utilizado.
-                    </p>
-
-                    <div class="about__tags">
-
-                        <span>DESIGN</span>
-
-                        <span>WEB</span>
-
-                        <span>VÍDEO</span>
-
-                        <span>IA</span>
-
-                        <span>CONTEÚDO</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =====================================================
-             CONTATO
-        ====================================================== -->
-
-        <section
-            class="section section--alt"
-            id="contato"
-        >
-
-            <div class="container contact">
-
-
-                <!-- INFORMAÇÕES -->
-
-                <div class="contact__info reveal">
-
-                    <p class="section__eyebrow">
-                        CONTATO
-                    </p>
-
-                    <h2>
-                        Vamos
-                        <span class="gold">conversar?</span>
-                    </h2>
-
-                    <p class="section__lead">
-                        Conte um pouco sobre o seu projeto e vamos
-                        conversar sobre a melhor solução.
-                    </p>
-
-
-                    <div class="contact__list">
-
-                        <a
-                            href="#"
-                            class="contact__item"
-                            data-wa="Olá, Igor! Vim pelo seu site e gostaria de conversar sobre um projeto."
-                        >
-
-                            <strong>
-                                WhatsApp
-                            </strong>
-
-                            <span>
-                                Falar diretamente
-                            </span>
-
-                        </a>
-
-
-                        <a
-                            href="https://instagram.com/seuinstagram"
-                            class="contact__item"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-
-                            <strong>
-                                Instagram
-                            </strong>
-
-                            <span>
-                                @seuinstagram
-                            </span>
-
-                        </a>
-
-
-                        <a
-                            href="mailto:contato@seudominio.com.br"
-                            class="contact__item"
-                        >
-
-                            <strong>
-                                E-mail
-                            </strong>
-
-                            <span>
-                                contato@seudominio.com.br
-                            </span>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-
-                <!-- FORMULÁRIO -->
-
-                <form
-                    class="form card reveal"
-                    id="contactForm"
-                >
-
-                    <div class="form__title">
-
-                        <h3>
-                            Solicitar orçamento
-                        </h3>
-
-                        <p>
-                            Preencha os dados abaixo.
-                        </p>
-
-                    </div>
-
-
-                    <label>
-
-                        Nome
-
-                        <input
-                            type="text"
-                            id="fName"
-                            placeholder="Seu nome"
-                            required
-                        >
-
-                    </label>
-
-
-                    <label>
-
-                        Serviço
-
-                        <select id="fService">
-
-                            <option>
-                                Artes e Design
-                            </option>
-
-                            <option>
-                                Logo e Identidade Visual
-                            </option>
-
-                            <option>
-                                Convites e Eventos
-                            </option>
-
-                            <option>
-                                Site ou Landing Page
-                            </option>
-
-                            <option>
-                                Edição de Vídeos
-                            </option>
-
-                            <option>
-                                IA e Criação Digital
-                            </option>
-
-                            <option>
-                                Conteúdo Digital
-                            </option>
-
-                            <option>
-                                Automação e Soluções
-                            </option>
-
-                            <option>
-                                Outro assunto
-                            </option>
-
-                        </select>
-
-                    </label>
-
-
-                    <label>
-
-                        Mensagem
-
-                        <textarea
-                            id="fMsg"
-                            rows="5"
-                            placeholder="Conte um pouco sobre o projeto..."
-                        ></textarea>
-
-                    </label>
-
-
-                    <button
-                        type="submit"
-                        class="btn"
-                    >
-                        ENVIAR PELO WHATSAPP
-                    </button>
-
-                </form>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- =====================================================
-         RODAPÉ
-    ====================================================== -->
-
-    <footer class="footer">
-
-        <div class="container footer__in">
-
-            <div>
-
-                <a
-                    href="#inicio"
-                    class="logo"
-                >
-                    Igor<span>.</span>
-                </a>
-
-                <p>
-                    Criação digital para pessoas, marcas e negócios.
-                </p>
-
-            </div>
-
-
-            <div class="footer__links">
-
-                <a href="#servicos">
-                    Serviços
-                </a>
-
-                <a href="#processo">
-                    Processo
-                </a>
-
-                <a href="#sobre">
-                    Sobre
-                </a>
-
-                <a href="#contato">
-                    Contato
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <div class="container footer__bottom">
-
-            <p>
-                © 2026 Igor. Todos os direitos reservados.
-            </p>
-
-            <p>
-                CRIAÇÃO DIGITAL
-            </p>
-
-        </div>
-
-    </footer>
-
-
-    <!-- =====================================================
-         WHATSAPP FLUTUANTE
-    ====================================================== -->
-
-    <a
-        href="#"
-        class="wa-float"
-        data-wa="Olá, Igor! Vim pelo seu site e gostaria de solicitar um orçamento."
-        aria-label="Falar no WhatsApp"
-    >
-
-        <svg
-            viewBox="0 0 32 32"
-            width="28"
-            height="28"
-            fill="currentColor"
-            aria-hidden="true"
-        >
-
-            <path
-                d="M16 3a13 13 0 0 0-11 19.9L3 29l6.3-1.9A13 13 0 1 0 16 3zm0 23.7a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.7 1.1 1.1-3.6-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7a.6.6 0 0 0 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4 14.6 14.6 0 0 0 5.6 4.9c2.1.9 2.9 1 3.9.8a3.3 3.3 0 0 0 2.2-1.6 2.7 2.7 0 0 0 .2-1.6c-.1-.1-.3-.2-.6-.4z"
-            />
-
-        </svg>
-
+<!-- ========== MENU FIXO ========== -->
+<header class="nav" id="nav">
+  <div class="container nav__in">
+    <!-- LOGO: símbolo + nome. Arquivo em assets/logo-mark.jpg -->
+    <a href="#inicio" class="logo" aria-label="Igor Vision, início">
+      <img src="assets/logo-mark.jpg" alt="" width="452" height="374">
+      <span class="logo__text">Igor <span>Vision</span></span>
     </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav__links" id="navLinks">
+      <a href="#servicos">Serviços</a>
+      <a href="#processo">Como funciona</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+      <a href="#contato" class="btn btn--sm">Orçamento</a>
+    </nav>
+  </div>
+</header>
 
+<main>
 
-    <!-- JAVASCRIPT -->
+<!-- ========== HERO ========== -->
+<section class="hero" id="inicio">
+  <div class="container hero__grid">
 
-    <script src="script.js"></script>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Igor Vision · Criação digital</p>
+      <h1>Criatividade que <strong>transforma ideias</strong> em projetos digitais.</h1>
+      <p class="hero__subtitle">Criação de artes, marcas, sites, vídeos e soluções digitais para pessoas, eventos e negócios.</p>
 
+      <div class="hero__actions">
+        <a href="#servicos" class="btn">Ver serviços</a>
+        <a href="#contato" class="btn btn--ghost" data-wa="Olá, Igor! Gostaria de solicitar um orçamento.">Solicitar orçamento</a>
+      </div>
+
+      <div class="hero__tags">
+        <span>ARTES</span><span>LOGOS</span><span>SITES</span><span>VÍDEOS</span><span>IA</span>
+      </div>
+    </div>
+
+    <!-- Avatar: para trocar a foto, substitua assets/avatar.png (PNG com fundo transparente) -->
+    <div class="hero__visual">
+      <svg class="hero__rings" viewBox="0 0 600 600" aria-hidden="true">
+        <circle cx="300" cy="300" r="290" stroke-dasharray="3 12"/>
+        <circle cx="300" cy="300" r="240"/>
+        <circle cx="300" cy="300" r="190" stroke-dasharray="2 10"/>
+      </svg>
+      <div class="hero__arch"></div>
+      <img class="hero__avatar" src="assets/avatar.png" alt="Igor, designer e criador digital" width="313" height="910">
+      <p class="hero__chip">Design · Sites · Conteúdo</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== SERVIÇOS ========== -->
+<section class="section services" id="servicos">
+  <div class="container">
+    <div class="section__head reveal">
+      <div>
+        <p class="section__eyebrow">Serviços</p>
+        <h2 class="section__title">O que eu faço</h2>
+      </div>
+      <p class="section__description">Do primeiro rascunho à publicação, tudo no mesmo lugar.</p>
+    </div>
+
+    <div class="grid--4">
+      <article class="service-card reveal">
+        <span class="service-card__number">01</span>
+        <h3>Design</h3>
+        <p>Logos, identidade visual, artes para redes sociais, banners e materiais digitais.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-card__number">02</span>
+        <h3>Sites</h3>
+        <p>Sites institucionais, landing pages, sites para eventos e sites personalizados.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-card__number">03</span>
+        <h3>Conteúdo</h3>
+        <p>Edição de vídeos, Reels e conteúdo digital para redes sociais.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-card__number">04</span>
+        <h3>Inteligência Artificial</h3>
+        <p>Conteúdo com IA, imagens com IA e automação de conteúdo.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CHAMADA PARA AÇÃO ========== -->
+<section class="cta">
+  <div class="container">
+    <div class="cta__box reveal">
+      <h2>Pronto para tirar sua ideia do papel?</h2>
+      <p>Conte o que você precisa e receba um orçamento sem compromisso.</p>
+      <a href="#contato" class="btn" data-wa="Olá, Igor! Quero tirar uma ideia do papel.">Solicitar orçamento</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== EXEMPLOS SOB CONSULTA ========== -->
+<section class="panel" id="consulta">
+  <div class="container">
+    <div class="panel__box reveal">
+      <h2>Exemplos sob consulta</h2>
+      <p>Parte dos projetos em que atuo é confidencial e não pode ser divulgada. Se você quer conhecer referências do meu trabalho, solicite uma apresentação privada.</p>
+      <a href="#" class="btn btn--ghost" data-wa="Olá, Igor! Gostaria de ver exemplos do seu trabalho." style="margin-top:22px">Solicitar apresentação</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== COMO FUNCIONA ========== -->
+<section class="section process" id="processo">
+  <div class="container">
+    <div class="section__head reveal">
+      <div>
+        <p class="section__eyebrow">Processo</p>
+        <h2 class="section__title">Como funciona</h2>
+      </div>
+    </div>
+
+    <div class="process__grid">
+      <div class="process__item reveal"><span class="process__number">01</span><h3>Conversa</h3><p>Você conta a ideia e o objetivo do projeto.</p></div>
+      <div class="process__item reveal"><span class="process__number">02</span><h3>Planejamento</h3><p>Defino escopo, prazo e direção visual.</p></div>
+      <div class="process__item reveal"><span class="process__number">03</span><h3>Criação</h3><p>Desenvolvo o material e mostro o andamento.</p></div>
+      <div class="process__item reveal"><span class="process__number">04</span><h3>Ajustes</h3><p>Refinamos juntos até ficar como você quer.</p></div>
+      <div class="process__item reveal"><span class="process__number">05</span><h3>Entrega</h3><p>Você recebe os arquivos finais, prontos para usar.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SOBRE ========== -->
+<section class="section about" id="sobre">
+  <div class="container about__grid">
+    <img class="about__photo reveal" src="assets/avatar.png" alt="Igor" width="440" height="440" loading="lazy">
+    <div class="about__content reveal">
+      <p class="section__eyebrow">Sobre</p>
+      <h2>Olá, eu sou Igor.</h2>
+      <p>Trabalho unindo criatividade, tecnologia e comunicação para desenvolver marcas, conteúdos e experiências digitais.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTATO ========== -->
+<section class="section contact" id="contato">
+  <div class="container contact__grid">
+
+    <div class="contact__info reveal">
+      <p class="section__eyebrow">Contato</p>
+      <h2>Vamos conversar?</h2>
+      <p>Conte sobre o seu projeto e receba um orçamento.</p>
+      <!-- TROQUE: @ do Instagram e e-mail abaixo (o WhatsApp é configurado no script.js) -->
+      <div class="contact__links">
+        <a href="#" data-wa="Olá, Igor! Vim pelo seu site e gostaria de conversar sobre um projeto.">WhatsApp · (65) 99696-3516</a>
+        <a href="https://instagram.com/seuinstagram" target="_blank" rel="noopener">Instagram · @seuinstagram</a>
+        <a href="mailto:contato@seudominio.com.br">E-mail · contato@seudominio.com.br</a>
+      </div>
+    </div>
+
+    <!-- Formulário: monta a mensagem e abre o WhatsApp -->
+    <form class="form reveal" id="contactForm">
+      <div class="form__group">
+        <label for="fName">Nome</label>
+        <input type="text" id="fName" required placeholder="Seu nome">
+      </div>
+      <div class="form__group">
+        <label for="fService">Serviço</label>
+        <select id="fService">
+          <option>Logo e identidade visual</option>
+          <option>Artes para redes sociais</option>
+          <option>Site ou landing page</option>
+          <option>Edição de vídeo e Reels</option>
+          <option>Conteúdo com IA</option>
+          <option>Outro assunto</option>
+        </select>
+      </div>
+      <div class="form__group">
+        <label for="fMsg">Mensagem</label>
+        <textarea id="fMsg" placeholder="Conte um pouco sobre o projeto"></textarea>
+      </div>
+      <button type="submit" class="btn">Enviar pelo WhatsApp</button>
+    </form>
+
+  </div>
+</section>
+
+</main>
+
+<!-- ========== RODAPÉ ========== -->
+<footer class="footer">
+  <div class="container footer__in">
+    <div class="footer__brand">
+      <img src="assets/logo-full.jpg" alt="Igor Vision" width="600" height="600" loading="lazy">
+      <p>© 2026 - Todos os direitos reservados.</p>
+    </div>
+    <p>Igor Vision · Criação digital</p>
+  </div>
+</footer>
+
+<!-- Botão flutuante do WhatsApp -->
+<a href="#" class="whatsapp-float" data-wa="Olá, Igor! Vim pelo seu site." aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.9L3 29l6.300-1.900A13 13 0 1 0 16 3zm0 23.700a10.600 10.600 0 0 1-5.400-1.500l-.4-.2-3.700 1.100 1.100-3.600-.3-.4A10.700 10.700 0 1 1 16 26.700zm5.900-8c-.3-.2-1.900-.9-2.200-1s-.5-.2-.7.200-.8 1-1 1.200-.4.200-.7.100a8.700 8.700 0 0 1-4.300-3.800c-.3-.6.300-.5.900-1.700a.6.600 0 0 0 0-.6l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6a1.200 1.200 0 0 0-.9.400 3.700 3.700 0 0 0-1.100 2.700 6.400 6.400 0 0 0 1.300 3.400 14.600 14.600 0 0 0 5.600 4.900c2.100.9 2.900 1 3.900.8a3.300 3.300 0 0 0 2.200-1.600 2.700 2.700 0 0 0 .2-1.600c-.1-.1-.3-.2-.6-.4z"/></svg>
+</a>
+
+<script src="script.js"></script>
 </body>
-
 </html>
